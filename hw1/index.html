@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script src="vue.js"></script>
+    <script src="hw1.js"></script>
+</head>
+
+<body>
+    <div id="testApp">
+        <ul>
+            <li v-for="member in members">
+                {{ member.name }}-{{member.title}}
+                <img v-if="member.avatar != undefined" v-bind:src="member.avatar">
+                <p v-else>
+                    no avatar
+                </p>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
