@@ -1,0 +1,56 @@
+{
+    "users": [
+        {
+            "customer": {
+                "id": "14510288",
+                "name": "Arne Morar",
+                "phone": "(062) 536-7265",
+                "address": {
+                    "street": "449 Judge Spur",
+                    "city": "Port Johnny",
+                    "state": "New York"
+                },
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/marshallchen_/128.jpg"
+            }
+        },
+        {
+            "customer": {
+                "id": "13838595",
+                "name": "Jovan Aufderhar",
+                "phone": "(476) 888-7320",
+                "address": {
+                    "street": "71930 Kuvalis Fort",
+                    "city": "West Marion",
+                    "state": "South Dakota"
+                },
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/zauerkraut/128.jpg"
+            }
+        },
+        {
+            "customer": {
+                "id": "02412474",
+                "name": "Gonzalo Satterfield IV",
+                "phone": "(417) 827-3966",
+                "address": {
+                    "street": "5925 Rosendo Park",
+                    "city": "Elsamouth",
+                    "state": "North Carolina"
+                },
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/fjaguero/128.jpg"
+            }
+        },
+        {
+            "customer": {
+                "id": "22243214",
+                "name": "Timmy Stoltenberg",
+                "phone": "(955) 558-1069",
+                "address": {
+                    "street": "37241 Marcos Canyon",
+                    "city": "Rolfsonton",
+                    "state": "Kentucky"
+                },
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/BenouarradeM/128.jpg"
+            }
+        }
+    ]
+}
