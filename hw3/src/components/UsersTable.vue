@@ -12,18 +12,38 @@
     </thead>
     <tr v-for='(user, index) in users'>
         <td> {{index+1}} </td>
-        <td> {{user.customer.name}}</td>
-        <td> {{user.customer.phone}}</td>
+        <td> {{user.name}}</td>
+        <td> {{user.phone}}</td>
         <td> {{fullAddress(user)}}</td>
-        <td> <img :src="user.customer.avatar" width="50px" height="50px"></td>
+        <td> <img :src="user.picture" width="50px" height="50px"></td>
         <td> <button data-toggle="modal" data-target='#editUser'>Modify</button></td>
     </tr>
     </table>
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-  name: 'UsersTable'
+  name: 'UsersTable',
+  data: () => ({
+    url: 'http://localhost:3000/users/',
+    users: []
+  }),
+  methods: {
+    loadData () {
+      axios.get(this.url).then(response => (this.users = response.data))
+    },
+    fullAddress (user) {
+      return user.address
+    },
+    name (user) {
+      return user.firstName + ' ' + user.lastName
+    }
+  },
+  mounted () {
+    this.loadData()
+  }
 }
 </script>
 
