@@ -1,27 +1,23 @@
 # hw3
 
-> A Vue.js project
+Задание
+Развернуть проект через vue-cli и шаблона webpack
+Установить json-server для REST
+Cгенерировать набор тестовых данных через json generator
+Реализовать переход на страницу с выставлением активного пункта в navbar
+Перенести страницы на vue-компоненты
+Реализовать переход между страницами через vue-router
+Реализовать компонент пагинацию для таблицы
+Реализовать компонент выбора количества элементов на страницу таблицы
+Подключить компонент пагинации и выбора количества строк к таблице
+Реализовать аплоад картинки на Imgur (пока обычным полем через $refs)
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Ссылки по теме
+- https://www.json-generator.com/
+- https://github.com/vuejs/vue-cli
+- https://github.com/typicode/json-server
+- https://apidocs.imgur.com/#authorization-and-oauth
+- https://vue-loader.vuejs.org/ru/
+- https://router.vuejs.org/ru/
+- https://ru.vuejs.org/v2/guide/components.html (асинхронные компоненты)
+- https://webpack.js.org/guides/code-splitting/
